@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "tetris_v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/builder": "^2.15.8",
+    "axios": "^0.27.2",
+    "core-js": "^3.19.3",
+    "express": "^4.18.1",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.0.0-rc.4",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "jest": "^28.1.1",
+    "ts-node": "^10.8.1"
+  }
+}
